@@ -1,0 +1,56 @@
+body, body *{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.container{
+    background: #3A7BCB;
+    height: 100vh;
+}
+.wrapper{
+    width: 35%;
+    margin: 0px auto;
+    position: relative;
+    top: 20px;
+}
+.add-container,
+.list-container{
+    background: #fff;
+    padding: 22px;
+}
+.section{
+    background: #2196F3;
+    padding: 25px 20px;
+}
+.flex-box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.edit-inp,
+.task-inp{
+    width: 70%;
+    height: 45px;
+    border: none;
+    padding: 4px 20px;
+    outline: 0  ;
+}
+.edit-inp{
+    width: 45%;
+}
+.task-btn{
+    width: 25%;
+    height: 45px;
+    border: none;
+    background-color: #fff;
+    color: #2196F3;
+    cursor: pointer;
+    outline: 0;
+}
+.list-heading{
+    color: #fff;
+    margin-bottom: 10px;
+}
+#list-box .flex-box{
+    margin: 10px 0;
+}
